@@ -1,5 +1,3 @@
-# PrimeResume
-My HTML/CSS resume for prime digital academy.
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,27 +6,29 @@ My HTML/CSS resume for prime digital academy.
   <title>Prime Academy Resume Application</title>
 </head>
 <body>
+  <main class="top-section">
   <h1>Victor Vin</h1>
     <div>18325 Kerrille Trail</div>
     <div>Lakeville, MN 55044</div>
     <div>651-442-1098</div>
+  </main>
   <section>
-    <div>
-      <h2>Profile<h2>
+    <div class="head">
+      <h2 class="profile">Profile<h2>
     </div>
   <p>I am a strongly motivated learner with a strong work ethics and easy going. I hope to make a breakthorugh into
     working with technology and getting work with professionals in the industry to improve my knowledge and skills.</p>
   </section>
   
     <div>
-      <h2>Work Experiece</h2>
+      <h2 class="bold-head">Work Experiece</h2>
     </div>
     <div>
       <h3>Det-Tronics</h3>
       <p>Electrical/Mechanical Assembler</p>
       <p>December 2021-Current</p>
       <p>
-        <ul>
+        <ul class="p3">
           <li>Read and following engineer blueprints.</li>
           <li>Sauter Electrical Boards and wires.</li>
           <li>Assemble sensor units and gas detectors.</li>
@@ -39,10 +39,10 @@ My HTML/CSS resume for prime digital academy.
      
     <div>
       <h3>United Technologies Company</h3>
-       <p>Mechanical Assembler</p>
+       <p class="p2">Mechanical Assembler</p>
        <p>Feburary 2019-December 2021</p>
        <p>
-         <ul>
+         <ul class="p3">
             <li>Light Brazing Qualifications.</li>
             <li>Read and follow enginner blueprints.</li> 
             <li>Inspect product.</li>
@@ -51,11 +51,11 @@ My HTML/CSS resume for prime digital academy.
        </p>
      </div>
   <div>
-    <h2>Education<h2>
+    <h2 class="bold-head">Education<h2>
   </div>
       <div>
         <h3>Normandale Community College</h3>
-        <p>General Education<p>
+        <p class="p2">General Education<p>
         <p>March 2014 - August 2021</p>
       </div>
       <div>
